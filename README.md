@@ -26,7 +26,7 @@
 4. [Schritt 2: Projekt einrichten](#schritt-2-projekt-einrichten)
 5. [Schritt 3: Abhängigkeiten installieren](#schritt-3-abhängigkeiten-installieren)
 6. [Schritt 4: Projekt starten](#schritt-4-projekt-starten)
-7. 7. [Port manuell Ändern:](#port-manuell-ändern)
+7. [Port manuell Ändern:](#port-manuell-ändern)
 8. [Fehlerbehebung](#fehlerbehebung)
 9. [Datenbank und Nutzung](#datenbank-und-nutzung)
 10. [Wichtige Hinweise zur Verwendung](#wichtige-hinweise-zur-verwendung)
