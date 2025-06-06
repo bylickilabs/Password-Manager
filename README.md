@@ -158,10 +158,9 @@ node server.js
 - Öffne die Anwendung
   - Klicke mit gedrückter 'STRG Taste' auf den Link in der bereits geöffneten Konsole 'http://localhost:3000', um auf den Passwort-Manager zuzugreifen.
 
-|Fehlerbehebung|
-|---|
-> Überprüfe, ob Node.js und npm korrekt installiert sind <p>
-> Stelle sicher, dass Node.js und npm installiert sind, indem du diese Befehle in PowerShell eingibst:
+#### Fehlerbehebung
+- Überprüfe, ob Node.js und npm korrekt installiert sind <p>
+  - Stelle sicher, dass Node.js und npm installiert sind, indem du diese Befehle in PowerShell eingibst:
 
 ```yarn
 node -v
@@ -272,7 +271,8 @@ const port = 3000;
 
 <br>
 
-- Node.js und TLS Installation (optional)
+#### Node.js und TLS Installation (optional)
+  
   - Node.js installieren:
 
 > Lade Node.js von der offiziellen Seite herunter und installiere es.
