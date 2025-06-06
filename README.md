@@ -49,11 +49,10 @@
 
 #### Schritt 1: Vorbereitung und Installation
 
-### 1. **Installiere Node.js und npm**
-
-- Gehe auf die [offizielle Node.js-Seite](https://nodejs.org/), lade die **LTS-Version** herunter und installiere sie.
-  - Überprüfe, ob **Node.js** und **npm** korrekt installiert wurden:
-    - Öffne **PowerShell** und gib folgende Befehle ein:
+- **Installiere Node.js und npm**
+  - Gehe auf die [offizielle Node.js-Seite](https://nodejs.org/), lade die **LTS-Version** herunter und installiere sie.
+    - Überprüfe, ob **Node.js** und **npm** korrekt installiert wurden:
+      - Öffne **PowerShell** und gib folgende Befehle ein:
 
      ```bash
      node -v
@@ -68,7 +67,7 @@
 
 <br><br>
 
-#### 3. **PowerShell im richtigen Verzeichnis ausführen**
+> **PowerShell im richtigen Verzeichnis ausführen**
 
 - **Wichtig**: Du musst **PowerShell im Verzeichnis des Projekts** ausführen, da npm-Befehle nur im richtigen Verzeichnis funktionieren.
    - **So öffnest du PowerShell im richtigen Verzeichnis:**
@@ -78,9 +77,8 @@
 
 #### Schritt 2: Projekt einrichten
 
-### 1. **Projekt von GitHub klonen (optional)**
-
-> Falls du das Projekt von GitHub klonen möchtest, führe diesen Befehl in PowerShell aus:
+- **Projekt von GitHub klonen (optional)**
+  - Falls du das Projekt von GitHub klonen möchtest, führe diesen Befehl in PowerShell aus:
 
 ```bash
 git clone https://github.com/dein-benutzername/passwort-manager.git
