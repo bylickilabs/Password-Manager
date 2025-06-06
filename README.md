@@ -30,6 +30,7 @@
 8. [Datenbank und Nutzung](#datenbank-und-nutzung)
 9. [Wichtige Hinweise zur Verwendung](#wichtige-hinweise-zur-verwendung)
 10. [Node.js und TLS Installation (optional)](#nodejs-und-tls-installation-optional)
+11. [Zusammenfassung)](#zusammenfassung)
 
 <br><br>
 
@@ -158,10 +159,9 @@ node server.js
 - Öffne die Anwendung
   - Klicke mit gedrückter 'STRG Taste' auf den Link in der bereits geöffneten Konsole 'http://localhost:3000', um auf den Passwort-Manager zuzugreifen.
 
-|Fehlerbehebung|
-|---|
-> Überprüfe, ob Node.js und npm korrekt installiert sind <p>
-> Stelle sicher, dass Node.js und npm installiert sind, indem du diese Befehle in PowerShell eingibst:
+#### Fehlerbehebung
+- Überprüfe, ob Node.js und npm korrekt installiert sind <p>
+  - Stelle sicher, dass Node.js und npm installiert sind, indem du diese Befehle in PowerShell eingibst:
 
 ```yarn
 node -v
@@ -211,8 +211,7 @@ taskkill /PID <PID> /F
 
 <br>
 
-|Datenbank und Nutzung|
-|---|
+#### Datenbank und Nutzung
 
 > Datenbank erstellen:
   - Wenn du den Server erfolgreich startest, wird beim ersten Speichern von Passwörtern eine Datenbank namens passwords.pdb erstellt.
@@ -255,7 +254,7 @@ const port = 3000;
 
 <br>
 
-- Wichtige Hinweise zur Verwendung
+#### Wichtige Hinweise zur Verwendung
   - PowerShell im richtigen Verzeichnis ausführen: <p>
 
 > Öffne PowerShell im Projektverzeichnis: <p>
@@ -273,7 +272,8 @@ const port = 3000;
 
 <br>
 
-- Node.js und TLS Installation (optional)
+#### Node.js und TLS Installation (optional)
+  
   - Node.js installieren:
 
 > Lade Node.js von der offiziellen Seite herunter und installiere es.
@@ -306,8 +306,7 @@ https.createServer(options, app).listen(3000, () => {
 <br>
 
 
-|Zusammenfassung|
-|---|
+#### Zusammenfassung
 
 - Installiere Node.js und Git (optional).
 - Clone das Projekt oder lade es herunter.
