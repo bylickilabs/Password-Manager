@@ -19,7 +19,7 @@
 
 #### Passwort-Manager - Schritt-für-Schritt Anleitung
 
-####Inhaltsverzeichnis:
+#### Inhaltsverzeichnis:
 1. [Einleitung](#einleitung)
 2. [Voraussetzungen](#voraussetzungen)
 3. [Schritt 1: Vorbereitung und Installation](#schritt-1-vorbereitung-und-installation)
