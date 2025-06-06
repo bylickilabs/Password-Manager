@@ -234,4 +234,19 @@ const port = 3000;
 
 - Und ändere den Port hier von '3000', auf '3001' und versuche es erneut.
 
+<br><br>
+---
+<br>
 
+|Wichtige Hinweise zur Verwendung|
+|---|
+
+> PowerShell im richtigen Verzeichnis ausführen: <p>
+> Öffne PowerShell im Projektverzeichnis: <p>
+> Klicke mit der rechten Maustaste auf das Projektverzeichnis und wähle „PowerShell hier öffnen“. <p>
+> Dadurch wird sichergestellt, dass alle npm-Befehle im richtigen Verzeichnis ausgeführt werden. <p>
+> Verwendung des Master-Passworts: <p>
+> Achte darauf, dass du ein sicheres Master-Passwort wählst, das nicht zu einfach zu erraten ist. <p>
+> Stelle sicher, dass das Master-Passwort in allen Anfragen an den Server korrekt übergeben wird. <p>
+> Datenbank speichern: <p>
+> Die passwords.pdb-Datenbank enthält alle verschlüsselten Passwörter und sollte sicher aufbewahrt werden.
