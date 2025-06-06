@@ -31,13 +31,13 @@
 9. [Wichtige Hinweise zur Verwendung](#wichtige-hinweise-zur-verwendung)
 10. [Node.js und TLS Installation (optional)](#nodejs-und-tls-installation-optional)
 
----
+<br><br>
 
 #### Einleitung
 - Willkommen zum **Passwort-Manager**! 🎉 Mit diesem Projekt kannst du **Passwörter sicher speichern**, die mit einem **Master-Passwort** verschlüsselt werden. Die Passwörter werden in einer **verschlüsselten Datenbank** (Datei `passwords.pdb`) gespeichert, die nur mit dem **Master-Passwort** entschlüsselt werden kann.
   - Diese Schritt-für-Schritt-Anleitung führt dich durch den gesamten **Installationsprozess**.
 
----
+<br><br>
 
 #### Voraussetzungen
 
@@ -45,7 +45,7 @@
     - **PowerShell**: Wird für die Installation der Abhängigkeiten und das Starten des Servers benötigt.
         - **[Git (optional)](https://git-scm.com/)**: Zum Klonen des Projekts von GitHub (optional).
 
----
+<br><br>
 
 #### Schritt 1: Vorbereitung und Installation
 
@@ -77,7 +77,7 @@
 
 ---
 
-## Schritt 2: Projekt einrichten
+#### Schritt 2: Projekt einrichten
 
 ### 1. **Projekt von GitHub klonen (optional)**
 
