@@ -147,3 +147,68 @@ node server.js
 
 - Öffne die Anwendung
   - Klicke mit gedrückter 'STRG Taste' auf den Link in der bereits geöffneten Konsole 'http://localhost:3000', um auf den Passwort-Manager zuzugreifen.
+
+|Fehlerbehebung|
+|---|
+> Überprüfe, ob Node.js und npm korrekt installiert sind <p>
+> Stelle sicher, dass Node.js und npm installiert sind, indem du diese Befehle in PowerShell eingibst:
+
+```yarn
+node -v
+npm -v
+```
+
+|Deinstalliere falsche Abhängigkeiten|
+|---|
+
+- Falls beim Ausführen des Projekts ein Fehler wie MODULE_NOT_FOUND auftritt, bedeutet das oft, dass eine falsche Version einer Abhängigkeit installiert wurde. So gehst du vor: 
+  - Deinstalliere crypto-js (oder eine andere falsche Abhängigkeit):
+    - Um crypto-js (oder jede andere Abhängigkeit) zu deinstallieren, führe den folgenden Befehl aus:
+
+```yarn
+npm uninstall crypto-js
+```
+
+- Installiere die richtige Version:
+  - Installiere dann die richtige Version von crypto-js:
+ 
+```yarn
+npm install crypto-js@3.1.9-1
+```
+
+|Fehler beim Starten des Servers|
+|---|
+
+- Falls du den Fehler 'EADDRINUSE' erhältst (Port bereits in Verwendung), beende den Prozess, der den Port blockiert:
+  - Führe diesen Befehl in PowerShell aus, um den Prozess zu finden, der den Port 3000 verwendet:
+
+```yarn 
+netstat -ano | findstr :3000
+```
+
+- Beende den Prozess mit:
+
+```yarn
+taskkill /PID <PID> /F
+```
+
+> Ersetze <PID> durch die tatsächliche Prozess-ID, die den Port blockiert.
+  - Achte hierbei darauf das du keine Windows Resourcen beendest
+
+<br><br>
+---
+<br>
+
+|Datenbank und Nutzung|
+|---|
+
+> Datenbank erstellen:
+  - Wenn du den Server erfolgreich startest, wird beim ersten Speichern von Passwörtern eine Datenbank namens passwords.pdb erstellt.
+    - Diese Datei enthält alle verschlüsselten Passwörter und wird im Projektverzeichnis gespeichert.
+
+> Passwörter speichern:
+  - Gib ein Master-Passwort ein und füge Passwörter hinzu.
+    - Klicke auf „Daten speichern“, um die Passwörter in der verschlüsselten Datenbank zu speichern.
+
+> Passwörter anzeigen:
+  - Klicke auf „Passwörter anzeigen“, um alle gespeicherten Passwörter anzuzeigen. Du musst das Master-Passwort eingeben, um sie zu entschlüsseln.
