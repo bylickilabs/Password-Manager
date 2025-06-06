@@ -46,6 +46,8 @@
         - **[Git (optional)](https://git-scm.com/)**: Zum Klonen des Projekts von GitHub (optional).
 
 <br><br>
+---
+<br>
 
 #### Schritt 1: Vorbereitung und Installation
 
