@@ -75,13 +75,53 @@
    **So öffnest du PowerShell im richtigen Verzeichnis:**
    - **Windows Explorer**: Klicke mit der rechten Maustaste auf den Projektordner (z.B. `PasswordManager`) und wähle **„PowerShell hier öffnen“**.
 
----
+<br><br>
 
 #### Schritt 2: Projekt einrichten
 
 ### 1. **Projekt von GitHub klonen (optional)**
 
-Falls du das Projekt von GitHub klonen möchtest, führe diesen Befehl in PowerShell aus:
+> Falls du das Projekt von GitHub klonen möchtest, führe diesen Befehl in PowerShell aus:
 
 ```bash
 git clone https://github.com/dein-benutzername/passwort-manager.git
+```
+
+<br>
+
+2. Navigiere zum Projektverzeichnis
+> Öffne PowerShell und gehe in das Verzeichnis des Projekts:
+
+```yarn
+cd C:\Users\dein-benutzername\Desktop\PasswordManager
+```
+
+<br>
+
+#### Schritt 3: Abhängigkeiten installieren
+
+### 1. Installiere alle benötigten Abhängigkeiten
+
+>  Um sicherzustellen, dass alle Abhängigkeiten korrekt installiert sind, führe den folgenden Befehl in PowerShell aus:
+
+```yarn
+npm install
+```
+
+> Dies lädt alle notwendigen Node.js-Abhängigkeiten, die im package.json aufgeführt sind, herunter.
+
+2. Überprüfen der installierten Abhängigkeiten
+> Überprüfe, ob express, body-parser, und crypto-js korrekt installiert wurden, indem du den folgenden Befehl eingibst:
+
+```yarn
+npm list express body-parser crypto-js
+```
+
+> Die Ausgabe sollte wie folgt aussehen:
+
+```yarn
+password-manager@1.0.0
+├── body-parser@1.19.0
+├── crypto-js@3.1.9-1
+└── express@4.17.1
+```
