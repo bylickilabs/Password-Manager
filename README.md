@@ -46,8 +46,10 @@
         - **[Git (optional)](https://git-scm.com/)**: Zum Klonen des Projekts von GitHub (optional).
 
 
-<br><br>
+<br>
+
 ---
+
 <br>
 
 #### Schritt 1: Vorbereitung und Installation
@@ -77,8 +79,10 @@
      - **Windows Explorer**: Klicke mit der rechten Maustaste in den Projektordner (z.B. `PasswordManager`) und wähle mit der rechten Maustatste **„In Terminal Öffnen“**.
 
 
-<br><br>
+<br>
+
 ---
+
 <br>
 
 #### Schritt 2: Projekt einrichten
@@ -99,8 +103,10 @@ git clone https://github.com/dein-benutzername/passwort-manager.git
 cd C:\Users\dein-benutzername\Desktop\PasswordManager
 ```
 
-<br><br>
+<br>
+
 ---
+
 <br>
 
 #### Schritt 3: Abhängigkeiten installieren
@@ -134,8 +140,10 @@ password-manager@1.0.0
 └── express@4.17.1
 ```
 
-<br><br>
+<br>
+
 ---
+
 <br>
 
 #### Schritt 4: Projekt starten
@@ -218,8 +226,10 @@ taskkill /PID <PID> /F
   - Klicke auf „Passwörter anzeigen“, um alle gespeicherten Passwörter in der Konsole anzeigen zu lassen (bereits geöffnet).
     - Das Master-Passwort sollte eingegeben sein, und anhand der ***** im Login zu sehen sein.
    
-<br><br>
+<br>
+
 ---
+
 <br>
 
 ##### - Port manuell Ändern: und setzen
@@ -238,8 +248,10 @@ const port = 3000;
 
 - Und ändere den Port hier von '3000', auf '3001' und versuche es erneut.
 
-<br><br>
+<br>
+
 ---
+
 <br>
 
 - Wichtige Hinweise zur Verwendung
@@ -254,8 +266,10 @@ const port = 3000;
 > Datenbank speichern: <p>
 > Die passwords.pdb-Datenbank enthält alle verschlüsselten Passwörter und sollte sicher aufbewahrt werden.
 
-<br><br>
+<br>
+
 ---
+
 <br>
 
 - Node.js und TLS Installation (optional)
