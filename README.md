@@ -139,7 +139,7 @@ password-manager@1.0.0
 #### Schritt 4: Projekt starten
 
 - Starte den Server
-  - Sobald alle Abhängigkeiten installiert sind, kannst du den Server starten. Führe in PowerShell diesen Befehl aus:
+  - Sobald alle Abhängigkeiten installiert sind, kannst du den Server starten. Führe in deinem Projekt Verzeichnis 'Password Manager' PowerShell mit diesen Befehl aus:
 
 ```yarn
 node server.js
