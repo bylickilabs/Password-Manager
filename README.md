@@ -211,4 +211,24 @@ taskkill /PID <PID> /F
     - Klicke auf „Daten speichern“, um die Passwörter in der verschlüsselten Datenbank zu speichern.
 
 > Passwörter anzeigen:
-  - Klicke auf „Passwörter anzeigen“, um alle gespeicherten Passwörter anzuzeigen. Du musst das Master-Passwort eingeben, um sie zu entschlüsseln.
+  - Klicke auf „Passwörter anzeigen“, um alle gespeicherten Passwörter in der Konsole anzeigen zu lassen (bereits geöffnet).
+    - Das Master-Passwort sollte eingegeben sein, und anhand der ***** im Login zu sehen sein.
+   
+
+Schritt 4: Projekt starten
+Port Manuell setzen
+  - Falls alle Versuche fehlschlagen den Port '3000' freizugeben, gehe wie folgt vor:
+    - Und ändere den Port hier von '3000', auf '3001' und versuche es erneut
+
+```yarn
+// server.js
+const express = require('express');
+const fs = require('fs');
+const crypto = require('crypto');
+const bodyParser = require('body-parser');
+const path = require('path');
+const app = express();
+const port = 3000;
+```
+
+
