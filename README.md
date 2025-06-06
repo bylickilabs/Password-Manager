@@ -211,8 +211,7 @@ taskkill /PID <PID> /F
 
 <br>
 
-|Datenbank und Nutzung|
-|---|
+#### Datenbank und Nutzung
 
 > Datenbank erstellen:
   - Wenn du den Server erfolgreich startest, wird beim ersten Speichern von Passwörtern eine Datenbank namens passwords.pdb erstellt.
@@ -255,7 +254,7 @@ const port = 3000;
 
 <br>
 
-- Wichtige Hinweise zur Verwendung
+#### Wichtige Hinweise zur Verwendung
   - PowerShell im richtigen Verzeichnis ausführen: <p>
 
 > Öffne PowerShell im Projektverzeichnis: <p>
