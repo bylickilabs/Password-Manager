@@ -65,7 +65,7 @@
 - **Installiere Git (optional)**
   - Wenn du das Projekt direkt von **GitHub** klonen möchtest, installiere **Git** von der [offiziellen Git-Seite](https://git-scm.com/downloads).
 
-<br><br>
+<br>
 
 > **PowerShell im richtigen Verzeichnis ausführen**
 
@@ -74,6 +74,7 @@
      - **Windows Explorer**: Klicke mit der rechten Maustaste in den Projektordner (z.B. `PasswordManager`) und wähle mit der rechten Maustatste **„In Terminal Öffnen“**.
 
 <br><br>
+---
 
 #### Schritt 2: Projekt einrichten
 
@@ -127,6 +128,7 @@ password-manager@1.0.0
 ```
 
 <br><br>
+---
 
 #### Schritt 4: Projekt starten
 
