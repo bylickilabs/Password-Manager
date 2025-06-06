@@ -61,7 +61,7 @@
      ```
       - Du solltest Versionsnummern für beide sehen, z. B. `v14.x.x` für Node.js und `6.x.x` für npm.
     
-<br><br>
+<br>
 
 ##### 2. **Installiere Git (optional)**
 > Wenn du das Projekt direkt von **GitHub** klonen möchtest, installiere **Git** von der [offiziellen Git-Seite](https://git-scm.com/downloads).
@@ -96,7 +96,7 @@ git clone https://github.com/dein-benutzername/passwort-manager.git
 cd C:\Users\dein-benutzername\Desktop\PasswordManager
 ```
 
-<br>
+<br><br>
 
 #### Schritt 3: Abhängigkeiten installieren
 
@@ -141,3 +141,4 @@ password-manager@1.0.0
 ```yarn
 node server.js
 ```
+
