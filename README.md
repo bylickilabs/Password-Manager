@@ -26,10 +26,11 @@
 4. [Schritt 2: Projekt einrichten](#schritt-2-projekt-einrichten)
 5. [Schritt 3: Abhängigkeiten installieren](#schritt-3-abhängigkeiten-installieren)
 6. [Schritt 4: Projekt starten](#schritt-4-projekt-starten)
-7. [Fehlerbehebung](#fehlerbehebung)
-8. [Datenbank und Nutzung](#datenbank-und-nutzung)
-9. [Wichtige Hinweise zur Verwendung](#wichtige-hinweise-zur-verwendung)
-10. [Node.js und TLS Installation (optional)](#nodejs-und-tls-installation-optional)
+7. [- Port manuell Ändern: Port Ändern](#--port-manuell-ändern-port-ändern)
+8. [Fehlerbehebung](#fehlerbehebung)
+9. [Datenbank und Nutzung](#datenbank-und-nutzung)
+10. [Wichtige Hinweise zur Verwendung](#wichtige-hinweise-zur-verwendung)
+11. [Node.js und TLS Installation (optional)](#nodejs-und-tls-installation-optional)
 
 <br><br>
 
@@ -214,12 +215,14 @@ taskkill /PID <PID> /F
   - Klicke auf „Passwörter anzeigen“, um alle gespeicherten Passwörter in der Konsole anzeigen zu lassen (bereits geöffnet).
     - Das Master-Passwort sollte eingegeben sein, und anhand der ***** im Login zu sehen sein.
    
+<br<br>
+---
+<br>
 
-Schritt 4: Projekt starten
+##### - Port manuell Ändern: Port Ändern
+
 Port Manuell setzen
   - Falls alle Versuche fehlschlagen den Port '3000' freizugeben, gehe wie folgt vor:
-    - Und ändere den Port hier von '3000', auf '3001' und versuche es erneut
-
 ```yarn
 // server.js
 const express = require('express');
@@ -230,5 +233,7 @@ const path = require('path');
 const app = express();
 const port = 3000;
 ```
+
+- Und ändere den Port hier von '3000', auf '3001' und versuche es erneut.
 
 
