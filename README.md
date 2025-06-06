@@ -195,11 +195,13 @@ taskkill /PID <PID> /F
 ```
 
 > Ersetze <PID> durch die tatsächliche Prozess-ID, die den Port blockiert.
-  - Achte hierbei darauf das du keine Windows Resourcen beendest
+  - Achte hierbei darauf das du keine Windows Resourcen beendest <p>
 
 <br>
+
 ---
-<br><br>
+
+<br>
 
 |Datenbank und Nutzung|
 |---|
