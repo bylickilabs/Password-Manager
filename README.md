@@ -30,6 +30,7 @@
 8. [Datenbank und Nutzung](#datenbank-und-nutzung)
 9. [Wichtige Hinweise zur Verwendung](#wichtige-hinweise-zur-verwendung)
 10. [Node.js und TLS Installation (optional)](#nodejs-und-tls-installation-optional)
+11. [Zusammenfassung)](#zusammenfassung)
 
 <br><br>
 
@@ -305,8 +306,7 @@ https.createServer(options, app).listen(3000, () => {
 <br>
 
 
-|Zusammenfassung|
-|---|
+#### Zusammenfassung
 
 - Installiere Node.js und Git (optional).
 - Clone das Projekt oder lade es herunter.
