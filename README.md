@@ -265,3 +265,30 @@ const port = 3000;
       - SSL-Zertifikat für HTTPS in Node.js verwenden:
 
 > Füge folgenden Code in server.js ein, um HTTPS zu aktivieren:
+
+```yarn
+const https = require('https');
+const fs = require('fs');
+
+const options = {
+    cert: fs.readFileSync('path/to/cert.pem'),
+    key: fs.readFileSync('path/to/key.pem')
+};
+
+https.createServer(options, app).listen(3000, () => {
+    console.log('Server läuft auf https://localhost:3000');
+});
+```
+
+|Zusammenfassung|
+|---|
+
+- Installiere Node.js und Git (optional).
+
+- Clone das Projekt oder lade es herunter.
+
+- Installiere die Abhängigkeiten mit npm install.
+
+- Starte den Server mit node server.js und öffne die Anwendung im Browser.
+
+- Speichere Passwörter und rufe sie über das Master-Passwort ab.
