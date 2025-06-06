@@ -6,7 +6,7 @@
 > Diese Datenbank wird beim ersten Speichern von Passwörtern automatisch erstellt und ermöglicht es, deine Passwörter sicher zu speichern und später wieder abzurufen, solange du das Master-Passwort hast. <p>
 > Die Datenbank kann nur mit dem **korrekten Master-Passwort** entschlüsselt werden.
 
-<br><br>
+<br>
 
 |Erklärung|
 |---|
@@ -15,4 +15,4 @@
 > Master-Passwort: Nur das Master-Passwort kann die Daten entschlüsseln. <p>
 > Automatische Erstellung: Die Datenbank wird beim ersten Speichern automatisch erstellt.
 
-<bR><br>
+<br><br>
