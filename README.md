@@ -249,3 +249,19 @@ const port = 3000;
 > Stelle sicher, dass das Master-Passwort in allen Anfragen an den Server korrekt übergeben wird. <p>
 > Datenbank speichern: <p>
 > Die passwords.pdb-Datenbank enthält alle verschlüsselten Passwörter und sollte sicher aufbewahrt werden.
+
+<br><br>
+---
+<br>
+
+- Node.js und TLS Installation (optional)
+  - Node.js installieren:
+
+> Lade Node.js von der offiziellen Seite herunter und installiere es.
+
+> TLS (Transport Layer Security):
+  - TLS wird benötigt, wenn du deine Anwendung über HTTPS öffentlich zugänglich machen möchtest. Es ist für die lokale Entwicklung jedoch nicht notwendig.
+    - SSL-Zertifikat von Let’s Encrypt: Besuche Let’s Encrypt und folge den Anweisungen, um ein kostenloses SSL-Zertifikat zu erhalten.
+      - SSL-Zertifikat für HTTPS in Node.js verwenden:
+
+> Füge folgenden Code in server.js ein, um HTTPS zu aktivieren:
