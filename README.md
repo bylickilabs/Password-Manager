@@ -47,7 +47,7 @@
 
 
 ---
-
+<br>
 
 #### Schritt 1: Vorbereitung und Installation
 
@@ -77,7 +77,7 @@
 
 
 ---
-
+<br>
 
 #### Schritt 2: Projekt einrichten
 
@@ -98,6 +98,7 @@ cd C:\Users\dein-benutzername\Desktop\PasswordManager
 ```
 
 ---
+<br>
 
 #### Schritt 3: Abhängigkeiten installieren
 
@@ -132,7 +133,7 @@ password-manager@1.0.0
 
 
 ---
-
+<br>
 
 #### Schritt 4: Projekt starten
 
@@ -193,7 +194,7 @@ taskkill /PID <PID> /F
 > Ersetze <PID> durch die tatsächliche Prozess-ID, die den Port blockiert.
   - Achte hierbei darauf das du keine Windows Resourcen beendest
 
-<br><br>
+
 ---
 <br>
 
@@ -214,7 +215,7 @@ taskkill /PID <PID> /F
    
 
 ---
-
+<br>
 
 ##### - Port manuell Ändern: und setzen
 
@@ -232,7 +233,7 @@ const port = 3000;
 
 - Und ändere den Port hier von '3000', auf '3001' und versuche es erneut.
 
-<br><br>
+
 ---
 <br>
 
@@ -250,7 +251,7 @@ const port = 3000;
 
 
 ---
-
+<br>
 
 - Node.js und TLS Installation (optional)
   - Node.js installieren:
