@@ -51,9 +51,9 @@
 
 ### 1. **Installiere Node.js und npm**
 
-1. Gehe auf die [offizielle Node.js-Seite](https://nodejs.org/), lade die **LTS-Version** herunter und installiere sie.
-2. Überprüfe, ob **Node.js** und **npm** korrekt installiert wurden:
-   - Öffne **PowerShell** und gib folgende Befehle ein:
+- Gehe auf die [offizielle Node.js-Seite](https://nodejs.org/), lade die **LTS-Version** herunter und installiere sie.
+  - Überprüfe, ob **Node.js** und **npm** korrekt installiert wurden:
+    - Öffne **PowerShell** und gib folgende Befehle ein:
 
      ```bash
      node -v
@@ -72,7 +72,7 @@
 
 - **Wichtig**: Du musst **PowerShell im Verzeichnis des Projekts** ausführen, da npm-Befehle nur im richtigen Verzeichnis funktionieren.
    - **So öffnest du PowerShell im richtigen Verzeichnis:**
-     - **Windows Explorer**: Klicke mit der rechten Maustaste auf den Projektordner (z.B. `PasswordManager`) und wähle **„PowerShell hier öffnen“**.
+     - **Windows Explorer**: Klicke mit der rechten Maustaste in den Projektordner (z.B. `PasswordManager`) und wähle mit der rechten Maustatste **„In Terminal Öffnen“**.
 
 <br><br>
 
@@ -88,8 +88,8 @@ git clone https://github.com/dein-benutzername/passwort-manager.git
 
 <br>
 
-2. Navigiere zum Projektverzeichnis
-> Öffne PowerShell und gehe in das Verzeichnis des Projekts:
+- Navigiere zum Projektverzeichnis
+  - Öffne PowerShell und gehe in das Verzeichnis des Projekts:
 
 ```yarn
 cd C:\Users\dein-benutzername\Desktop\PasswordManager
@@ -99,9 +99,8 @@ cd C:\Users\dein-benutzername\Desktop\PasswordManager
 
 #### Schritt 3: Abhängigkeiten installieren
 
-### 1. Installiere alle benötigten Abhängigkeiten
-
->  Um sicherzustellen, dass alle Abhängigkeiten korrekt installiert sind, führe den folgenden Befehl in PowerShell aus:
+- Installiere alle benötigten Abhängigkeiten
+  - Um sicherzustellen, dass alle Abhängigkeiten korrekt installiert sind, führe den folgenden Befehl in PowerShell aus:
 
 ```yarn
 npm install
@@ -111,8 +110,8 @@ npm install
 
 <br>
 
-2. Überprüfen der installierten Abhängigkeiten
-> Überprüfe, ob express, body-parser, und crypto-js korrekt installiert wurden, indem du den folgenden Befehl eingibst:
+- Überprüfen der installierten Abhängigkeiten
+  - Überprüfe, ob express, body-parser, und crypto-js korrekt installiert wurden, indem du den folgenden Befehl eingibst:
 
 ```yarn
 npm list express body-parser crypto-js
@@ -133,9 +132,8 @@ password-manager@1.0.0
 
 #### Schritt 4: Projekt starten
 
-### 1. Starte den Server
-
-> Sobald alle Abhängigkeiten installiert sind, kannst du den Server starten. Führe in PowerShell diesen Befehl aus:
+- Starte den Server
+  - Sobald alle Abhängigkeiten installiert sind, kannst du den Server starten. Führe in PowerShell diesen Befehl aus:
 
 ```yarn
 node server.js
