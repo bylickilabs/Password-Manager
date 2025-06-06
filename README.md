@@ -129,3 +129,15 @@ password-manager@1.0.0
 ├── crypto-js@3.1.9-1
 └── express@4.17.1
 ```
+
+<br><br>
+
+#### Schritt 4: Projekt starten
+
+### 1. Starte den Server
+
+> Sobald alle Abhängigkeiten installiert sind, kannst du den Server starten. Führe in PowerShell diesen Befehl aus:
+
+```yarn
+node server.js
+```
