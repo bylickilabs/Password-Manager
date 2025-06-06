@@ -17,9 +17,9 @@
 
 <br><br>
 
-# Passwort-Manager - Schritt-für-Schritt Anleitung
+#### Passwort-Manager - Schritt-für-Schritt Anleitung
 
-## Inhaltsverzeichnis:
+####Inhaltsverzeichnis:
 1. [Einleitung](#einleitung)
 2. [Voraussetzungen](#voraussetzungen)
 3. [Schritt 1: Vorbereitung und Installation](#schritt-1-vorbereitung-und-installation)
@@ -33,40 +33,42 @@
 
 ---
 
-## Einleitung
-
-Willkommen zum **Passwort-Manager**! 🎉 Mit diesem Projekt kannst du **Passwörter sicher speichern**, die mit einem **Master-Passwort** verschlüsselt werden. Die Passwörter werden in einer **verschlüsselten Datenbank** (Datei `passwords.pdb`) gespeichert, die nur mit dem **Master-Passwort** entschlüsselt werden kann.
-
-Diese Schritt-für-Schritt-Anleitung führt dich durch den gesamten **Installationsprozess**.
+#### Einleitung
+- Willkommen zum **Passwort-Manager**! 🎉 Mit diesem Projekt kannst du **Passwörter sicher speichern**, die mit einem **Master-Passwort** verschlüsselt werden. Die Passwörter werden in einer **verschlüsselten Datenbank** (Datei `passwords.pdb`) gespeichert, die nur mit dem **Master-Passwort** entschlüsselt werden kann.
+  - Diese Schritt-für-Schritt-Anleitung führt dich durch den gesamten **Installationsprozess**.
 
 ---
 
-## Voraussetzungen
+#### Voraussetzungen
 
 - **[Node.js](https://nodejs.org/)**: Wir benötigen **Node.js** und **npm (Node Package Manager)**, um das Projekt auszuführen.
-- **PowerShell**: Wird für die Installation der Abhängigkeiten und das Starten des Servers benötigt.
-- **[Git (optional)](https://git-scm.com/)**: Zum Klonen des Projekts von GitHub (optional).
+    - **PowerShell**: Wird für die Installation der Abhängigkeiten und das Starten des Servers benötigt.
+        - **[Git (optional)](https://git-scm.com/)**: Zum Klonen des Projekts von GitHub (optional).
 
 ---
 
-## Schritt 1: Vorbereitung und Installation
+#### Schritt 1: Vorbereitung und Installation
 
 ### 1. **Installiere Node.js und npm**
 
 1. Gehe auf die [offizielle Node.js-Seite](https://nodejs.org/), lade die **LTS-Version** herunter und installiere sie.
 2. Überprüfe, ob **Node.js** und **npm** korrekt installiert wurden:
    - Öffne **PowerShell** und gib folgende Befehle ein:
+
      ```bash
      node -v
      npm -v
      ```
-   - Du solltest Versionsnummern für beide sehen, z. B. `v14.x.x` für Node.js und `6.x.x` für npm.
+      - Du solltest Versionsnummern für beide sehen, z. B. `v14.x.x` für Node.js und `6.x.x` für npm.
+    
+<br><br>
 
-### 2. **Installiere Git (optional)**
+##### 2. **Installiere Git (optional)**
+> Wenn du das Projekt direkt von **GitHub** klonen möchtest, installiere **Git** von der [offiziellen Git-Seite](https://git-scm.com/downloads).
 
-Wenn du das Projekt direkt von **GitHub** klonen möchtest, installiere **Git** von der [offiziellen Git-Seite](https://git-scm.com/downloads).
+<br><br>
 
-### 3. **PowerShell im richtigen Verzeichnis ausführen**
+#### 3. **PowerShell im richtigen Verzeichnis ausführen**
 
 - **Wichtig**: Du musst **PowerShell im Verzeichnis des Projekts** ausführen, da npm-Befehle nur im richtigen Verzeichnis funktionieren.
 
