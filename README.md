@@ -71,9 +71,8 @@
 #### 3. **PowerShell im richtigen Verzeichnis ausführen**
 
 - **Wichtig**: Du musst **PowerShell im Verzeichnis des Projekts** ausführen, da npm-Befehle nur im richtigen Verzeichnis funktionieren.
-
-   **So öffnest du PowerShell im richtigen Verzeichnis:**
-   - **Windows Explorer**: Klicke mit der rechten Maustaste auf den Projektordner (z.B. `PasswordManager`) und wähle **„PowerShell hier öffnen“**.
+   - **So öffnest du PowerShell im richtigen Verzeichnis:**
+     - **Windows Explorer**: Klicke mit der rechten Maustaste auf den Projektordner (z.B. `PasswordManager`) und wähle **„PowerShell hier öffnen“**.
 
 <br><br>
 
