@@ -1,3 +1,6 @@
+|![Password Manager](https://github.com/user-attachments/assets/2002d4c5-4c03-4344-b878-3a6cd8332e35)|
+|---|
+
 |Integrierte Datenbank|
 |---|
 
