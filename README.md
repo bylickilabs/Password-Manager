@@ -284,11 +284,7 @@ https.createServer(options, app).listen(3000, () => {
 |---|
 
 - Installiere Node.js und Git (optional).
-
 - Clone das Projekt oder lade es herunter.
-
 - Installiere die Abhängigkeiten mit npm install.
-
 - Starte den Server mit node server.js und öffne die Anwendung im Browser.
-
 - Speichere Passwörter und rufe sie über das Master-Passwort ab.
