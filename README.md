@@ -45,9 +45,9 @@
     - **PowerShell**: Wird für die Installation der Abhängigkeiten und das Starten des Servers benötigt.
         - **[Git (optional)](https://git-scm.com/)**: Zum Klonen des Projekts von GitHub (optional).
 
-<br><br>
+
 ---
-<br>
+
 
 #### Schritt 1: Vorbereitung und Installation
 
@@ -75,9 +75,9 @@
    - **So öffnest du PowerShell im richtigen Verzeichnis:**
      - **Windows Explorer**: Klicke mit der rechten Maustaste in den Projektordner (z.B. `PasswordManager`) und wähle mit der rechten Maustatste **„In Terminal Öffnen“**.
 
-<br><br>
+
 ---
-<br>
+
 
 #### Schritt 2: Projekt einrichten
 
@@ -132,9 +132,9 @@ password-manager@1.0.0
 └── express@4.17.1
 ```
 
-<br><br>
+
 ---
-<br>
+
 
 #### Schritt 4: Projekt starten
 
@@ -214,9 +214,9 @@ taskkill /PID <PID> /F
   - Klicke auf „Passwörter anzeigen“, um alle gespeicherten Passwörter in der Konsole anzeigen zu lassen (bereits geöffnet).
     - Das Master-Passwort sollte eingegeben sein, und anhand der ***** im Login zu sehen sein.
    
-<br<br>
+
 ---
-<br>
+
 
 ##### - Port manuell Ändern: und setzen
 
@@ -250,9 +250,9 @@ const port = 3000;
 > Datenbank speichern: <p>
 > Die passwords.pdb-Datenbank enthält alle verschlüsselten Passwörter und sollte sicher aufbewahrt werden.
 
-<br><br>
+
 ---
-<br>
+
 
 - Node.js und TLS Installation (optional)
   - Node.js installieren:
