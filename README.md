@@ -145,3 +145,5 @@ password-manager@1.0.0
 node server.js
 ```
 
+- Öffne die Anwendung
+  - Klicke mit gedrückter 'STRG Taste' auf den Link in der bereits geöffneten Konsole 'http://localhost:3000', um auf den Passwort-Manager zuzugreifen.
