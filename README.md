@@ -63,8 +63,8 @@
     
 <br>
 
-##### 2. **Installiere Git (optional)**
-> Wenn du das Projekt direkt von **GitHub** klonen möchtest, installiere **Git** von der [offiziellen Git-Seite](https://git-scm.com/downloads).
+- **Installiere Git (optional)**
+  - Wenn du das Projekt direkt von **GitHub** klonen möchtest, installiere **Git** von der [offiziellen Git-Seite](https://git-scm.com/downloads).
 
 <br><br>
 
