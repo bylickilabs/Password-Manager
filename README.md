@@ -220,7 +220,10 @@ taskkill /PID <PID> /F
 
 > Passwörter speichern:
   - Gib ein Master-Passwort ein und füge Passwörter hinzu.
-    - Klicke auf „Daten speichern“, um die Passwörter in der verschlüsselten Datenbank zu speichern.
+    - I. Klicke auf 'Passwort Speichern'.
+      - II. Klicke auf 'Daten speichern', um die Passwörter in der verschlüsselten Datenbank zu speichern.
+
+> Wenn du nun auf 'Passwörter anzeigen' klickst werden alle hinterlegten Daten in der Konsole ausgegeben.
 
 > Passwörter anzeigen:
   - Klicke auf „Passwörter anzeigen“, um alle gespeicherten Passwörter in der Konsole anzeigen zu lassen (bereits geöffnet).
