@@ -110,12 +110,16 @@ npm install
 
 > Dies lädt alle notwendigen Node.js-Abhängigkeiten, die im package.json aufgeführt sind, herunter.
 
+<br>
+
 2. Überprüfen der installierten Abhängigkeiten
 > Überprüfe, ob express, body-parser, und crypto-js korrekt installiert wurden, indem du den folgenden Befehl eingibst:
 
 ```yarn
 npm list express body-parser crypto-js
 ```
+
+<br>
 
 > Die Ausgabe sollte wie folgt aussehen:
 
