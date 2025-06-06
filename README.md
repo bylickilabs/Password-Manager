@@ -97,9 +97,7 @@ git clone https://github.com/dein-benutzername/passwort-manager.git
 cd C:\Users\dein-benutzername\Desktop\PasswordManager
 ```
 
-<br><br>
 ---
-<br>
 
 #### Schritt 3: Abhängigkeiten installieren
 
