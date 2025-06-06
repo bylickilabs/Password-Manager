@@ -75,6 +75,7 @@
 
 <br><br>
 ---
+<br>
 
 #### Schritt 2: Projekt einrichten
 
@@ -129,6 +130,7 @@ password-manager@1.0.0
 
 <br><br>
 ---
+<br>
 
 #### Schritt 4: Projekt starten
 
