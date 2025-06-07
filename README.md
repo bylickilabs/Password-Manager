@@ -1,5 +1,5 @@
-[Download](https://github.com/bylickilabs/Password-Manager/archive/refs/heads/main.zip)|
-|---|
+|[![Sponsor](https://img.shields.io/badge/%F0%9F%92%96-Sponsor-ff69b4?style=flat-square)](https://github.com/sponsors/bylickilabs)|[Download](https://github.com/bylickilabs/Password-Manager/archive/refs/heads/main.zip)|
+|---|---|
 
 |![Password Manager](https://github.com/user-attachments/assets/2002d4c5-4c03-4344-b878-3a6cd8332e35)|![2](https://github.com/user-attachments/assets/80b28e0a-a93a-4643-8492-7392cfba4bfb)|
 |---|---|
